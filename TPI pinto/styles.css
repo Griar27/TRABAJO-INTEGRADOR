@@ -90,18 +90,18 @@ h3 {
 
 .carta {
     margin: auto;
-    display: flex;
     justify-content: space-around;
     padding: 20px;
 }
 
 .foods {
-    border: 2px solid ;
+    border: 2px solid;
     border-radius: 5px;
-    padding: 20px 20px;
+    padding: 10px 10px;
     margin: 10px auto;
     box-shadow: 5px 5px 3px #a1941ba6;
-    width: 30%;
+    width: 27%;
+    height: auto;
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
@@ -120,7 +120,7 @@ h3 {
 /* imagenes */
 
 .img {
-    width: 100%;
+    width: 90%;
     border-radius: 5px;
     box-shadow: 5px 5px 3px #1f193ddc;
     margin: 10px 0 10px 0;
@@ -129,7 +129,7 @@ h3 {
 /* nostoros */
 
 .nosotros {
-    margin: 20px;
+    margin: 30px 0;
     padding: 10px;
 }
 
@@ -141,7 +141,7 @@ h3 {
     align-items: center;
 }
 
-.form1 {
+.form {
     width: 100%;
     border: 15px;
     padding: 15px;
@@ -151,25 +151,33 @@ h3 {
 }
 
 .interno {
+    width: 50%;
     display: flex;
     flex-direction: column;
     text-align: left;
 }
 
 input, textarea {
-    background: #c7c6c63f;
+    background: #c7c6c621;
     border-radius: 5px;
-    margin: 5px;
+    margin: 10px;
+    width: 100%;
+}
+
+.input {
+    height: 20px;
 }
 
 
 .btn {
-    margin-top: 10px;
+    width: 25%;
+    margin: 15px auto;
     color: #17181b;
     padding: 7px;
     background-color: #e9e514;
     cursor: pointer;
     border-radius: 10%;
+    
 }
 
 .btn:hover {
@@ -188,16 +196,17 @@ input, textarea {
 }
 @media (max-width: 600px){
     .foods{
-    width: 100%;
+    width: 80%;
     }
 }
 @media (max-width: 600px){
-    .body{
+    .body {
     width: 100%;
     }
 }
-@media (max-width: 200px){
-    .activa-link{
-    width: 100%;
+@media (max-width: 500px){
+    .interno {
+        width: 100%;
     }
+
 }
