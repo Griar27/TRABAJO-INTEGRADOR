@@ -157,7 +157,7 @@ h3 {
     text-align: left;
 }
 
-input, textarea {
+.input, textarea {
     background: #c7c6c621;
     border-radius: 5px;
     margin: 10px;
@@ -166,6 +166,7 @@ input, textarea {
 
 .input {
     height: 20px;
+    padding: 15px;
 }
 
 
